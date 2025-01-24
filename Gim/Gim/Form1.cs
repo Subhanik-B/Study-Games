@@ -13,7 +13,7 @@ namespace Gim
     public partial class Form1 : Form
     {
         int score = 0;
-        Question[] question = new Question[4];
+        Question[] Easyquestion = new Question[4];
         public Form1()
         {
             InitializeComponent();

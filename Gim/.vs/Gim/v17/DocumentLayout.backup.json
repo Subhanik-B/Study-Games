@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\buntu\\OneDrive\\Documents\\School Code\\Study-Games\\Gim\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D229C4E8-061A-4A5E-8373-68BB251FE218}|Gim\\Gim.csproj|c:\\users\\buntu\\onedrive\\documents\\school code\\study-games\\gim\\gim\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{D229C4E8-061A-4A5E-8373-68BB251FE218}|Gim\\Gim.csproj|solutionrelative:gim\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D229C4E8-061A-4A5E-8373-68BB251FE218}|Gim\\Gim.csproj|c:\\users\\buntu\\onedrive\\documents\\school code\\study-games\\gim\\gim\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D229C4E8-061A-4A5E-8373-68BB251FE218}|Gim\\Gim.csproj|solutionrelative:gim\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D229C4E8-061A-4A5E-8373-68BB251FE218}|Gim\\Gim.csproj|c:\\users\\buntu\\onedrive\\documents\\school code\\study-games\\gim\\gim\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D229C4E8-061A-4A5E-8373-68BB251FE218}|Gim\\Gim.csproj|solutionrelative:gim\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D229C4E8-061A-4A5E-8373-68BB251FE218}|Gim\\Gim.csproj|c:\\users\\buntu\\onedrive\\documents\\school code\\study-games\\gim\\gim\\question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -26,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
@@ -55,25 +55,25 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\buntu\\OneDrive\\Documents\\School Code\\Study-Games\\Gim\\Gim\\Form1.cs",
               "RelativeDocumentMoniker": "Gim\\Form1.cs",
-              "ToolTip": "C:\\Users\\buntu\\OneDrive\\Documents\\School Code\\Study-Games\\Gim\\Gim\\Form1.cs*",
-              "RelativeToolTip": "Gim\\Form1.cs*",
-              "ViewState": "AgIAAAYAAAAAAAAAAADwvxoAAAAXAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\buntu\\OneDrive\\Documents\\School Code\\Study-Games\\Gim\\Gim\\Form1.cs",
+              "RelativeToolTip": "Gim\\Form1.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAADwvw8AAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-24T01:15:52.317Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\buntu\\OneDrive\\Documents\\School Code\\Study-Games\\Gim\\Gim\\Form1.cs",
               "RelativeDocumentMoniker": "Gim\\Form1.cs",
-              "ToolTip": "C:\\Users\\buntu\\OneDrive\\Documents\\School Code\\Study-Games\\Gim\\Gim\\Form1.cs [Design]*",
-              "RelativeToolTip": "Gim\\Form1.cs [Design]*",
+              "ToolTip": "C:\\Users\\buntu\\OneDrive\\Documents\\School Code\\Study-Games\\Gim\\Gim\\Form1.cs [Design]",
+              "RelativeToolTip": "Gim\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-24T00:43:21.738Z",
               "EditorCaption": " [Design]"
