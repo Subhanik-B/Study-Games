@@ -13,10 +13,30 @@ namespace Gim
 {
     public partial class Question : UserControl
     {
+        public Image image { get; set; }
+        public String correctAnswer { get; set; }
+        public String Queston { get; set; }
         public Question()
         {
             InitializeComponent();
-            Image image;
+        }
+
+        public void Question_Load(object sender, EventArgs e)
+        {
+            Picture.Image = image;
+            Prompt.Text = Queston;
+        }
+
+        public Boolean checker()
+        {
+            if(Answer.Text.ToLower() == correctAnswer)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
         }
     }
 }

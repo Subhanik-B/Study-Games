@@ -12,9 +12,20 @@ namespace Gim
 {
     public partial class Form1 : Form
     {
+        int score = 0;
+        Question[] question = new Question[4];
         public Form1()
         {
             InitializeComponent();
+        }
+
+        private void Checker_Click(object sender, EventArgs e)
+        {
+            if (question1.checker())
+            {
+                score++;
+            }
+            textBox1.Text = score.ToString();
         }
     }
 }

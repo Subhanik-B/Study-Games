@@ -49,15 +49,15 @@
             this.Prompt.Multiline = true;
             this.Prompt.Name = "Prompt";
             this.Prompt.ReadOnly = true;
-            this.Prompt.Size = new System.Drawing.Size(144, 20);
+            this.Prompt.Size = new System.Drawing.Size(166, 34);
             this.Prompt.TabIndex = 1;
             // 
             // Answer
             // 
-            this.Answer.Location = new System.Drawing.Point(9, 159);
+            this.Answer.Location = new System.Drawing.Point(9, 173);
             this.Answer.Multiline = true;
             this.Answer.Name = "Answer";
-            this.Answer.Size = new System.Drawing.Size(144, 20);
+            this.Answer.Size = new System.Drawing.Size(166, 20);
             this.Answer.TabIndex = 2;
             // 
             // Question
@@ -69,6 +69,7 @@
             this.Controls.Add(this.Picture);
             this.Name = "Question";
             this.Size = new System.Drawing.Size(242, 221);
+            this.Load += new System.EventHandler(this.Question_Load);
             ((System.ComponentModel.ISupportInitialize)(this.Picture)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
