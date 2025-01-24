@@ -16,6 +16,7 @@ namespace Gim
         public Image image { get; set; }
         public String correctAnswer { get; set; }
         public String Queston { get; set; }
+        public Boolean isInt {  get; set; }
         public Question()
         {
             InitializeComponent();
@@ -29,13 +30,23 @@ namespace Gim
 
         public Boolean checker()
         {
-            if(Answer.Text.ToLower() == correctAnswer)
+            if (!isInt)
             {
-                return true;
+                if (Answer.Text.ToLower() == correctAnswer)
+                {
+                    return true;
+                }
+                else
+                {
+                    return false;
+                }
             }
             else
             {
-                return false;
+                if ()
+                {
+
+                }
             }
         }
     }

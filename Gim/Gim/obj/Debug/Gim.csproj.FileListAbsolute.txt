@@ -9,3 +9,14 @@ C:\Users\buntu\OneDrive\Documents\School Code\Study-Games\Gim\Gim\obj\Debug\Gim.
 C:\Users\buntu\OneDrive\Documents\School Code\Study-Games\Gim\Gim\obj\Debug\Gim.exe
 C:\Users\buntu\OneDrive\Documents\School Code\Study-Games\Gim\Gim\obj\Debug\Gim.pdb
 C:\Users\buntu\OneDrive\Documents\School Code\Study-Games\Gim\Gim\obj\Debug\Gim.Form1.resources
+C:\Users\sbha527\Documents\ah\Study-Games\Gim\Gim\bin\Debug\Gim.exe.config
+C:\Users\sbha527\Documents\ah\Study-Games\Gim\Gim\bin\Debug\Gim.exe
+C:\Users\sbha527\Documents\ah\Study-Games\Gim\Gim\bin\Debug\Gim.pdb
+C:\Users\sbha527\Documents\ah\Study-Games\Gim\Gim\obj\Debug\Gim.csproj.AssemblyReference.cache
+C:\Users\sbha527\Documents\ah\Study-Games\Gim\Gim\obj\Debug\Gim.Form1.resources
+C:\Users\sbha527\Documents\ah\Study-Games\Gim\Gim\obj\Debug\Gim.Properties.Resources.resources
+C:\Users\sbha527\Documents\ah\Study-Games\Gim\Gim\obj\Debug\Gim.Question.resources
+C:\Users\sbha527\Documents\ah\Study-Games\Gim\Gim\obj\Debug\Gim.csproj.GenerateResource.cache
+C:\Users\sbha527\Documents\ah\Study-Games\Gim\Gim\obj\Debug\Gim.csproj.CoreCompileInputs.cache
+C:\Users\sbha527\Documents\ah\Study-Games\Gim\Gim\obj\Debug\Gim.exe
+C:\Users\sbha527\Documents\ah\Study-Games\Gim\Gim\obj\Debug\Gim.pdb
