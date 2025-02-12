@@ -31,7 +31,7 @@ namespace Beans
 
         public void setOGPlayers()
         {
-            for (int i = 1; i < random.Next(3,6); i++)
+            for (int i = 0; i < random.Next(3,6); i++)
             {
                 Player a = new Player();
                 a.player(randomNames[random.Next(0, randomNames.Count())], 2, random.NextDouble() + random.Next(1, 5));

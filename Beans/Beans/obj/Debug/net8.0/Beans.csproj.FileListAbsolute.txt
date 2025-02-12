@@ -13,3 +13,18 @@ C:\Users\buntu\OneDrive\Documents\School Code\Study-Games\Beans\Beans\obj\Debug\
 C:\Users\buntu\OneDrive\Documents\School Code\Study-Games\Beans\Beans\obj\Debug\net8.0\Beans.pdb
 C:\Users\buntu\OneDrive\Documents\School Code\Study-Games\Beans\Beans\obj\Debug\net8.0\Beans.genruntimeconfig.cache
 C:\Users\buntu\OneDrive\Documents\School Code\Study-Games\Beans\Beans\obj\Debug\net8.0\ref\Beans.dll
+C:\Users\sbha527\Documents\ah\Study-Games\Beans\Beans\bin\Debug\net8.0\Beans.exe
+C:\Users\sbha527\Documents\ah\Study-Games\Beans\Beans\bin\Debug\net8.0\Beans.deps.json
+C:\Users\sbha527\Documents\ah\Study-Games\Beans\Beans\bin\Debug\net8.0\Beans.runtimeconfig.json
+C:\Users\sbha527\Documents\ah\Study-Games\Beans\Beans\bin\Debug\net8.0\Beans.dll
+C:\Users\sbha527\Documents\ah\Study-Games\Beans\Beans\bin\Debug\net8.0\Beans.pdb
+C:\Users\sbha527\Documents\ah\Study-Games\Beans\Beans\obj\Debug\net8.0\Beans.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sbha527\Documents\ah\Study-Games\Beans\Beans\obj\Debug\net8.0\Beans.AssemblyInfoInputs.cache
+C:\Users\sbha527\Documents\ah\Study-Games\Beans\Beans\obj\Debug\net8.0\Beans.AssemblyInfo.cs
+C:\Users\sbha527\Documents\ah\Study-Games\Beans\Beans\obj\Debug\net8.0\Beans.csproj.CoreCompileInputs.cache
+C:\Users\sbha527\Documents\ah\Study-Games\Beans\Beans\obj\Debug\net8.0\Beans.sourcelink.json
+C:\Users\sbha527\Documents\ah\Study-Games\Beans\Beans\obj\Debug\net8.0\Beans.dll
+C:\Users\sbha527\Documents\ah\Study-Games\Beans\Beans\obj\Debug\net8.0\refint\Beans.dll
+C:\Users\sbha527\Documents\ah\Study-Games\Beans\Beans\obj\Debug\net8.0\Beans.pdb
+C:\Users\sbha527\Documents\ah\Study-Games\Beans\Beans\obj\Debug\net8.0\Beans.genruntimeconfig.cache
+C:\Users\sbha527\Documents\ah\Study-Games\Beans\Beans\obj\Debug\net8.0\ref\Beans.dll
