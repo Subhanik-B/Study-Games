@@ -13,11 +13,120 @@ for (int i = 0; i < 32; i++)
 }
 
 
-    Console.WriteLine("Current teams are:");
-    for (int i = 0; i < teamList.Count(); i++)
-    {
-        teamList[i].printTeamRoster();
-    }
+Console.WriteLine("Please select a team");
+for (int i = 0; i < teamList.Count(); i++)
+{
+    Console.WriteLine(teamList[i].teamName + "[" + (i + 1) + "]");
+}
+
+int a = int.Parse(Console.ReadLine());
+Console.WriteLine();
+
+switch (a)
+{
+    case 1:
+        teamList[0].printTeamRoster();
+        break;
+    case 2:
+        teamList[1].printTeamRoster();
+        break;
+    case 3:
+        teamList[2].printTeamRoster();
+        break;
+    case 4:
+        teamList[3].printTeamRoster();
+        break;
+    case 5:
+        teamList[4].printTeamRoster();
+        break;
+    case 6:
+        teamList[5].printTeamRoster();
+        break;
+    case 7:
+        teamList[6].printTeamRoster();
+        break;
+    case 8:
+        teamList[7].printTeamRoster();
+        break;
+    case 9:
+        teamList[8].printTeamRoster();
+        break;
+    case 10:
+        teamList[9].printTeamRoster();
+        break;
+    case 11:
+        teamList[10].printTeamRoster();
+        break;
+    case 12:
+        teamList[11].printTeamRoster();
+        break;
+    case 13:
+        teamList[12].printTeamRoster();
+        break;
+    case 14:
+        teamList[13].printTeamRoster();
+        break;
+    case 15:
+        teamList[14].printTeamRoster();
+        break;
+    case 16:
+        teamList[15].printTeamRoster();
+        break;
+    case 17:
+        teamList[16].printTeamRoster();
+        break;
+    case 18:
+        teamList[17].printTeamRoster();
+        break;
+    case 19:
+        teamList[18].printTeamRoster();
+        break;
+    case 20:
+        teamList[19].printTeamRoster();
+        break;
+    case 21:
+        teamList[20].printTeamRoster();
+        break;
+    case 22:
+        teamList[21].printTeamRoster();
+        break;
+    case 23:
+        teamList[22].printTeamRoster();
+        break;
+    case 24:
+        teamList[23].printTeamRoster();
+        break;
+    case 25:
+        teamList[24].printTeamRoster();
+        break;
+    case 26:
+        teamList[25].printTeamRoster();
+        break;
+    case 27:
+        teamList[26].printTeamRoster();
+        break;
+    case 28:
+        teamList[27].printTeamRoster();
+        break;
+    case 29:
+        teamList[28].printTeamRoster();
+        break;
+    case 30:
+        teamList[29].printTeamRoster();
+        break;
+    case 31:
+        teamList[30].printTeamRoster();
+        break;
+    case 32:
+        teamList[31].printTeamRoster();
+        break;
+
+}
+
+
+
+
+
 
 
 
