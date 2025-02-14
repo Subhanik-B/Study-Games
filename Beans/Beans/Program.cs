@@ -3,7 +3,7 @@ using System.Diagnostics;
 using System.Runtime.InteropServices;
 using Beans;
 
-List<Teams> teamList = new List<Teams>();
+    List<Teams> teamList = new List<Teams>(32);
 
     String[] teamNames = { "Cordinals", "Seachickens", "Goats", "Gold Diggers", "Vipings", "Cubs", "Puckers", "Cats", "Cows", "Migits", "Seagulls", "Lieutenants", "Malcons", "Pampers", "Devils", "Privateers", "Radens", "Tokers", "Greens", "Thiefs", "Buffalos", "Dophons", "Revolutionists", "Planes", "Mexicans", "Hoofs", "Jagg", "Smallans", "Horses", "Taylor's City", "Defenders", "Slowers" };
     for (int i = 0; i < 32; i++)
@@ -20,8 +20,17 @@ List<Teams> teamList = new List<Teams>();
     {
         Console.WriteLine(teamList[i].teamName + "[" + (i + 1) + "]");
     }
-
-    int a = int.Parse(Console.ReadLine());
+    int a = 0;
+    try
+    {
+        a = int.Parse(Console.ReadLine());
+    }
+    catch (Exception e)
+    {
+        Console.WriteLine("Try again, make sure to type the numebr in brackets next to the team you want");
+        a = int.Parse(Console.ReadLine());
+}
+    
     Console.WriteLine();
 
     switch (a)
@@ -123,21 +132,33 @@ List<Teams> teamList = new List<Teams>();
             teamList[31].printTeamRoster();
             break;
     }
-List<Teams> schedule = new List<Teams>();
-generateSchedule(schedule, a-1);
+List<Teams> schedule = new List<Teams>(19);
+generateSchedule(a-1);
+
+printSchedule(teamList[a]);
+Console.ReadLine();
 
 
 
- void generateSchedule(List<Teams> bob, int index)
+ void generateSchedule(int index)
 {
-    for (int i = 0; i < 18; i++)
+    for (int i = 0; i < 19; i++)
     {
         Random random = new Random();
         int b = random.Next(0,31);
-        if (b != index)
+        if (b != index && b < teamList.Count())
         {
-            bob[index] = teamList[b];
+            schedule.Add(teamList[b]);
         }
+    }
+}
+
+void printSchedule(Teams a)
+{
+    Console.WriteLine("Your Schedule: \n\t");
+    for (int i = 0; i < schedule.Count(); i++)
+    {
+        Console.WriteLine("\tWeek " + (i+1) + ": " + schedule[i].teamName);
     }
 }
 
