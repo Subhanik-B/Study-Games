@@ -13,14 +13,16 @@ using Beans;
         teamA.setOGPlayers();
         teamList.Add(teamA);
     }
+int a = 0;
 
-
+void selectTeam()
+{
     Console.WriteLine("Please select a team");
     for (int i = 0; i < teamList.Count(); i++)
     {
         Console.WriteLine(teamList[i].teamName + "[" + (i + 1) + "]");
     }
-    int a = 0;
+
     try
     {
         a = int.Parse(Console.ReadLine());
@@ -29,8 +31,8 @@ using Beans;
     {
         Console.WriteLine("Try again, make sure to type the numebr in brackets next to the team you want");
         a = int.Parse(Console.ReadLine());
-}
-    
+    }
+
     Console.WriteLine();
 
     switch (a)
@@ -132,15 +134,46 @@ using Beans;
             teamList[31].printTeamRoster();
             break;
     }
+}
+
+selectTeam();
+
 List<Teams> schedule = new List<Teams>(19);
+int week = 1; 
 generateSchedule(a-1);
 
-printSchedule(teamList[a]);
-Console.ReadLine();
+while (true)
+{
+    Console.WriteLine("Main Menu: \n\t");
+    Console.WriteLine("View Schedule [s]\n\t");
+    Console.WriteLine("Play Week " + week + " game against " + schedule[week-1].teamName + " [p]\n\t");
+    Console.WriteLine("View Roster [r]");
+    Console.WriteLine("Re-select Team [t]");
+    String b = Console.ReadLine();
+    switch (b)
+    {
+        case "s":
+            printSchedule(teamList[a-1]);
+            break;
+        case "p":
+            week++;
+            break;
+        case "r":
+            teamList[a-1].printTeamRoster();
+            break;
+        case "t":
+            selectTeam();
+            break;
+        default:
+            Console.WriteLine("Try again, and actually type the right letters this time please.");
+            break;
+    }
+}
 
 
 
- void generateSchedule(int index)
+
+void generateSchedule(int index)
 {
     for (int i = 0; i < 19; i++)
     {

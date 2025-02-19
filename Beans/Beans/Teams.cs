@@ -19,14 +19,30 @@ namespace Beans
         public double getOAverage()
         {
             double average = 0;
+            int playersCounted = 0;
             for (int i = 0; i < players.Count(); i++)
             {
                 if (players[i].Position < 11)
                 {
                     average += players[i].Overall;
+                    playersCounted++;
                 }
             }
-            return average;
+            return average / playersCounted;
+        }
+        public double getDAverage()
+        {
+            double average = 0;
+            int playersCounted = 0;
+            for (int i = 0; i < players.Count(); i++)
+            {
+                if (players[i].Position >= 11)
+                {
+                    average += players[i].Overall;
+                    playersCounted++;
+                }
+            }
+            return average / playersCounted;
         }
 
         public void setOGPlayers()
@@ -34,7 +50,7 @@ namespace Beans
             for (int i = 0; i < random.Next(3,6); i++)
             {
                 Player a = new Player();
-                a.player(randomNames[random.Next(0, randomNames.Count())], 2, random.NextDouble() + random.Next(1, 5));
+                a.player(randomNames[random.Next(0, randomNames.Count())], random.Next(0,23), random.NextDouble() + random.Next(1, 5));
                 players.Add(a);
             }
         }
@@ -47,15 +63,13 @@ namespace Beans
         public void printTeamRoster()
         {
             Console.WriteLine("Team Name:");
-            Console.WriteLine(teamName);
-            Console.WriteLine("");
+            Console.WriteLine(teamName + "\n");
             Console.WriteLine("     Amount of Star Players:");
-            Console.WriteLine("     " + players.Count());
-            Console.WriteLine("");
+            Console.WriteLine("     " + players.Count() + "\n");
             Console.WriteLine("     Player Names/Positions:");
             for (int i = 0; i < players.Count(); i++)
             {
-                Console.WriteLine("     " + players[i].Name + " " + players[i].Overall);
+                Console.WriteLine("     " + players[i].Name + " " + players[i].Overall + " " + players[i].Position);
             }
             Console.WriteLine("");
         }
