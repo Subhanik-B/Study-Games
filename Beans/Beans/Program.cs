@@ -15,6 +15,9 @@ using Beans;
     }
 int a = 0;
 
+
+List<Teams> schedule = new List<Teams>(19);
+int week = 1;
 void selectTeam()
 {
     Console.WriteLine("Please select a team");
@@ -29,6 +32,8 @@ void selectTeam()
     }
     catch (Exception e)
     {
+        Console.WriteLine(e.ToString());
+        Console.WriteLine("See that error, that was you.");
         Console.WriteLine("Try again, make sure to type the numebr in brackets next to the team you want");
         a = int.Parse(Console.ReadLine());
     }
@@ -134,13 +139,12 @@ void selectTeam()
             teamList[31].printTeamRoster();
             break;
     }
+    generateSchedule(a - 1);
 }
-
 selectTeam();
 
-List<Teams> schedule = new List<Teams>(19);
-int week = 1; 
-generateSchedule(a-1);
+
+
 
 while (true)
 {
@@ -175,6 +179,7 @@ while (true)
 
 void generateSchedule(int index)
 {
+    schedule.Clear();
     for (int i = 0; i < 19; i++)
     {
         Random random = new Random();
@@ -193,6 +198,11 @@ void printSchedule(Teams a)
     {
         Console.WriteLine("\tWeek " + (i+1) + ": " + schedule[i].teamName);
     }
+}
+
+void playGame()
+{
+
 }
 
 

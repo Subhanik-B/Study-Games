@@ -50,7 +50,7 @@ namespace Beans
             for (int i = 0; i < random.Next(3,6); i++)
             {
                 Player a = new Player();
-                a.player(randomNames[random.Next(0, randomNames.Count())], random.Next(0,23), random.NextDouble() + random.Next(1, 5));
+                a.player(randomNames[random.Next(0, randomNames.Count())], random.Next(0,23), random.NextDouble() + random.Next(1, 6));
                 players.Add(a);
             }
         }
