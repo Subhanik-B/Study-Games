@@ -1,0 +1,7 @@
+C:\Users\buntu\OneDrive\Documents\School Code\Study-Games\Quartet2\Quartet2\bin\Debug\Quartet2.exe.config
+C:\Users\buntu\OneDrive\Documents\School Code\Study-Games\Quartet2\Quartet2\bin\Debug\Quartet2.exe
+C:\Users\buntu\OneDrive\Documents\School Code\Study-Games\Quartet2\Quartet2\bin\Debug\Quartet2.pdb
+C:\Users\buntu\OneDrive\Documents\School Code\Study-Games\Quartet2\Quartet2\obj\Debug\Quartet2.csproj.AssemblyReference.cache
+C:\Users\buntu\OneDrive\Documents\School Code\Study-Games\Quartet2\Quartet2\obj\Debug\Quartet2.csproj.CoreCompileInputs.cache
+C:\Users\buntu\OneDrive\Documents\School Code\Study-Games\Quartet2\Quartet2\obj\Debug\Quartet2.exe
+C:\Users\buntu\OneDrive\Documents\School Code\Study-Games\Quartet2\Quartet2\obj\Debug\Quartet2.pdb
