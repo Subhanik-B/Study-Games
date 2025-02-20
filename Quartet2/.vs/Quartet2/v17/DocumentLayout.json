@@ -1,18 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\buntu\\OneDrive\\Documents\\School Code\\Study-Games\\Quartet2\\",
+  "WorkspaceRootPath": "C:\\Users\\sbha527\\Documents\\ah\\Study-Games\\Quartet2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FDDC77E7-05E1-48BF-90AF-8D054780E1B4}|Quartet2\\Quartet2.csproj|c:\\users\\buntu\\onedrive\\documents\\school code\\study-games\\quartet2\\quartet2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BB388F7A-1DC2-474A-8751-B5B058A2A5EE}|Quartet Game\\Quartet Game.csproj|c:\\users\\sbha527\\documents\\ah\\study-games\\quartet2\\quartet game\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BB388F7A-1DC2-474A-8751-B5B058A2A5EE}|Quartet Game\\Quartet Game.csproj|solutionrelative:quartet game\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB388F7A-1DC2-474A-8751-B5B058A2A5EE}|Quartet Game\\Quartet Game.csproj|c:\\users\\sbha527\\documents\\ah\\study-games\\quartet2\\quartet game\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB388F7A-1DC2-474A-8751-B5B058A2A5EE}|Quartet Game\\Quartet Game.csproj|solutionrelative:quartet game\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDDC77E7-05E1-48BF-90AF-8D054780E1B4}|Quartet2\\Quartet2.csproj|c:\\users\\sbha527\\documents\\ah\\study-games\\quartet2\\quartet2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FDDC77E7-05E1-48BF-90AF-8D054780E1B4}|Quartet2\\Quartet2.csproj|solutionrelative:quartet2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FDDC77E7-05E1-48BF-90AF-8D054780E1B4}|Quartet2\\Quartet2.csproj|C:\\Users\\buntu\\OneDrive\\Documents\\School Code\\Study-Games\\Quartet2\\quartet2\\carcard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FDDC77E7-05E1-48BF-90AF-8D054780E1B4}|Quartet2\\Quartet2.csproj|C:\\Users\\sbha527\\Documents\\ah\\Study-Games\\Quartet2\\quartet2\\carcard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FDDC77E7-05E1-48BF-90AF-8D054780E1B4}|Quartet2\\Quartet2.csproj|solutionrelative:quartet2\\carcard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FDDC77E7-05E1-48BF-90AF-8D054780E1B4}|Quartet2\\Quartet2.csproj|C:\\Users\\buntu\\OneDrive\\Documents\\School Code\\Study-Games\\Quartet2\\quartet2\\deck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FDDC77E7-05E1-48BF-90AF-8D054780E1B4}|Quartet2\\Quartet2.csproj|C:\\Users\\sbha527\\Documents\\ah\\Study-Games\\Quartet2\\quartet2\\deck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FDDC77E7-05E1-48BF-90AF-8D054780E1B4}|Quartet2\\Quartet2.csproj|solutionrelative:quartet2\\deck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDDC77E7-05E1-48BF-90AF-8D054780E1B4}|Quartet2\\Quartet2.csproj|c:\\users\\sbha527\\documents\\ah\\study-games\\quartet2\\quartet2\\hand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDDC77E7-05E1-48BF-90AF-8D054780E1B4}|Quartet2\\Quartet2.csproj|solutionrelative:quartet2\\hand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,46 +34,84 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
+              "Title": "Hand.cs",
+              "DocumentMoniker": "C:\\Users\\sbha527\\Documents\\ah\\Study-Games\\Quartet2\\Quartet2\\Hand.cs",
+              "RelativeDocumentMoniker": "Quartet2\\Hand.cs",
+              "ToolTip": "C:\\Users\\sbha527\\Documents\\ah\\Study-Games\\Quartet2\\Quartet2\\Hand.cs",
+              "RelativeToolTip": "Quartet2\\Hand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T15:31:13.286Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Deck.cs",
-              "DocumentMoniker": "C:\\Users\\buntu\\OneDrive\\Documents\\School Code\\Study-Games\\Quartet2\\Quartet2\\Deck.cs",
+              "DocumentMoniker": "C:\\Users\\sbha527\\Documents\\ah\\Study-Games\\Quartet2\\Quartet2\\Deck.cs",
               "RelativeDocumentMoniker": "Quartet2\\Deck.cs",
-              "ToolTip": "C:\\Users\\buntu\\OneDrive\\Documents\\School Code\\Study-Games\\Quartet2\\Quartet2\\Deck.cs",
+              "ToolTip": "C:\\Users\\sbha527\\Documents\\ah\\Study-Games\\Quartet2\\Quartet2\\Deck.cs",
               "RelativeToolTip": "Quartet2\\Deck.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAA5wB8AAAAJAAAAAAAAAA==",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-20T04:09:04.513Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "CarCard.cs",
-              "DocumentMoniker": "C:\\Users\\buntu\\OneDrive\\Documents\\School Code\\Study-Games\\Quartet2\\Quartet2\\CarCard.cs",
+              "DocumentMoniker": "C:\\Users\\sbha527\\Documents\\ah\\Study-Games\\Quartet2\\Quartet2\\CarCard.cs",
               "RelativeDocumentMoniker": "Quartet2\\CarCard.cs",
-              "ToolTip": "C:\\Users\\buntu\\OneDrive\\Documents\\School Code\\Study-Games\\Quartet2\\Quartet2\\CarCard.cs",
+              "ToolTip": "C:\\Users\\sbha527\\Documents\\ah\\Study-Games\\Quartet2\\Quartet2\\CarCard.cs",
               "RelativeToolTip": "Quartet2\\CarCard.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFMAAAAmAAAAAAAAAA==",
+              "ViewState": "AQIAADQAAAAAAAAAAAAcwFQAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-20T04:08:49.262Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\buntu\\OneDrive\\Documents\\School Code\\Study-Games\\Quartet2\\Quartet2\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\sbha527\\Documents\\ah\\Study-Games\\Quartet2\\Quartet2\\Program.cs",
               "RelativeDocumentMoniker": "Quartet2\\Program.cs",
-              "ToolTip": "C:\\Users\\buntu\\OneDrive\\Documents\\School Code\\Study-Games\\Quartet2\\Quartet2\\Program.cs",
+              "ToolTip": "C:\\Users\\sbha527\\Documents\\ah\\Study-Games\\Quartet2\\Quartet2\\Program.cs",
               "RelativeToolTip": "Quartet2\\Program.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAwGYAAAANAAAAAAAAAA==",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAA0AAABDAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-20T04:08:11.573Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\sbha527\\Documents\\ah\\Study-Games\\Quartet2\\Quartet Game\\Form1.cs",
+              "RelativeDocumentMoniker": "Quartet Game\\Form1.cs",
+              "ToolTip": "C:\\Users\\sbha527\\Documents\\ah\\Study-Games\\Quartet2\\Quartet Game\\Form1.cs",
+              "RelativeToolTip": "Quartet Game\\Form1.cs",
+              "ViewState": "AQIAACwAAAAAAAAAAIAwwDoAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T15:50:20.874Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\sbha527\\Documents\\ah\\Study-Games\\Quartet2\\Quartet Game\\Form1.cs",
+              "RelativeDocumentMoniker": "Quartet Game\\Form1.cs",
+              "ToolTip": "C:\\Users\\sbha527\\Documents\\ah\\Study-Games\\Quartet2\\Quartet Game\\Form1.cs [Design]",
+              "RelativeToolTip": "Quartet Game\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T15:48:25.673Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }
