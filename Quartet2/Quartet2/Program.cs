@@ -46,12 +46,77 @@ namespace Quartet2
 
             //WriteLine(C4.Compare(A3, CarCard.category.hp));
             List<CarCard> list = new List<CarCard>();
-            list.Add(C4);
-            list.Add(C3);
-            list.Add(A3);
-            list.Add(G4);
-            list.Add(G1);
+            for (int i = 1; i <= 8; i++)
+            {
+                switch (i)
+                {
+                    case 1:
+                        list.Add(A1);
+                        list.Add(A2);
+                        list.Add(A3);
+                        list.Add(A4);
+                        break;
+                    case 2:
+                        list.Add(B1);
+                        list.Add(B2);
+                        list.Add(B3);
+                        list.Add(B4);
+                        break;
+                    case 3:
+                        list.Add(C1);
+                        list.Add(C2);
+                        list.Add(C3);
+                        list.Add(C4);
+                        break;
+                    case 4:
+                        list.Add(D1);
+                        list.Add(D2);
+                        list.Add(D3);
+                        list.Add(D4);
+                        break;
+                    case 5:
+                        list.Add(E1);
+                        list.Add(E2);
+                        list.Add(E3);
+                        list.Add(E4);
+                        break;
+                    case 6:
+                        list.Add(F1);
+                        list.Add(F2);
+                        list.Add(F3);
+                        list.Add(F4);
+                        break;
+                    case 7:
+                        list.Add(G1);
+                        list.Add(G2);
+                        list.Add(G3);
+                        list.Add(G4);
+                        break;
+                    case 8:
+                        list.Add(H1);
+                        list.Add(H2);
+                        list.Add(H3);
+                        list.Add(H4);
+                        break;
+
+                }
+            }
             Deck d = new Deck(list);
+            //Console.ReadLine();
+
+            CarCard car = new CarCard("", "", 0, 0, 0, 0, 0, 0);
+            Random rand = new Random();
+            for (int i = 0; i < list.Count; i++)
+            {
+                int a = rand.Next(0, list.Count);
+                int b = rand.Next(0, list.Count);
+                car = list[a];
+                list[a] = list[b];
+                list[b] = car;
+            }
+
+            d.updateDeck(list);
+            Console.WriteLine(d.ToString());
             Console.ReadLine();
         }
     }

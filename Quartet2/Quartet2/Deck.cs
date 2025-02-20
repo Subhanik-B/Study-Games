@@ -30,5 +30,9 @@ namespace Quartet2
             }
             return retVal;
         }
+        public void updateDeck(List<CarCard> cards)
+        {
+            this.carCards = cards;
+        }
     }
 }

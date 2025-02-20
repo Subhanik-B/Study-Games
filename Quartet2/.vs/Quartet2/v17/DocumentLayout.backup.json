@@ -7,11 +7,11 @@
       "RelativeMoniker": "D:0:0:{FDDC77E7-05E1-48BF-90AF-8D054780E1B4}|Quartet2\\Quartet2.csproj|solutionrelative:quartet2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FDDC77E7-05E1-48BF-90AF-8D054780E1B4}|Quartet2\\Quartet2.csproj|c:\\users\\buntu\\onedrive\\documents\\school code\\study-games\\quartet2\\quartet2\\carcard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FDDC77E7-05E1-48BF-90AF-8D054780E1B4}|Quartet2\\Quartet2.csproj|C:\\Users\\buntu\\OneDrive\\Documents\\School Code\\Study-Games\\Quartet2\\quartet2\\carcard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FDDC77E7-05E1-48BF-90AF-8D054780E1B4}|Quartet2\\Quartet2.csproj|solutionrelative:quartet2\\carcard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FDDC77E7-05E1-48BF-90AF-8D054780E1B4}|Quartet2\\Quartet2.csproj|c:\\users\\buntu\\onedrive\\documents\\school code\\study-games\\quartet2\\quartet2\\deck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FDDC77E7-05E1-48BF-90AF-8D054780E1B4}|Quartet2\\Quartet2.csproj|C:\\Users\\buntu\\OneDrive\\Documents\\School Code\\Study-Games\\Quartet2\\quartet2\\deck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FDDC77E7-05E1-48BF-90AF-8D054780E1B4}|Quartet2\\Quartet2.csproj|solutionrelative:quartet2\\deck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -32,7 +32,7 @@
               "RelativeDocumentMoniker": "Quartet2\\Deck.cs",
               "ToolTip": "C:\\Users\\buntu\\OneDrive\\Documents\\School Code\\Study-Games\\Quartet2\\Quartet2\\Deck.cs",
               "RelativeToolTip": "Quartet2\\Deck.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAA5wB8AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-20T04:09:04.513Z",
               "EditorCaption": ""
@@ -45,7 +45,7 @@
               "RelativeDocumentMoniker": "Quartet2\\CarCard.cs",
               "ToolTip": "C:\\Users\\buntu\\OneDrive\\Documents\\School Code\\Study-Games\\Quartet2\\Quartet2\\CarCard.cs",
               "RelativeToolTip": "Quartet2\\CarCard.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFUAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFMAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-20T04:08:49.262Z",
               "EditorCaption": ""
@@ -58,7 +58,7 @@
               "RelativeDocumentMoniker": "Quartet2\\Program.cs",
               "ToolTip": "C:\\Users\\buntu\\OneDrive\\Documents\\School Code\\Study-Games\\Quartet2\\Quartet2\\Program.cs",
               "RelativeToolTip": "Quartet2\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAzAAAAAAAAAA==",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAAwGYAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-20T04:08:11.573Z",
               "EditorCaption": ""

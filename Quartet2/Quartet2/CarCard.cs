@@ -81,7 +81,7 @@ namespace Quartet2
                 "\n\thp:" + hp +
                 "\n\tcc:" + cc +
                 "\n\tcylinders:" + cylinders +
-                "\n\trpm:" + rpm;
+                "\n\trpm:" + rpm + "\n";
         }
     }
 }
