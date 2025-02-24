@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Quartet2
+namespace Quartet_Game
 {
     internal class CarCard
     {

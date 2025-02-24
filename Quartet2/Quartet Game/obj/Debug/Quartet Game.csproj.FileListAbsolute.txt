@@ -1,0 +1,10 @@
+C:\Users\sbha527\Documents\ah\Study-Games\Quartet2\Quartet Game\bin\Debug\Quartet Game.exe.config
+C:\Users\sbha527\Documents\ah\Study-Games\Quartet2\Quartet Game\bin\Debug\Quartet Game.exe
+C:\Users\sbha527\Documents\ah\Study-Games\Quartet2\Quartet Game\bin\Debug\Quartet Game.pdb
+C:\Users\sbha527\Documents\ah\Study-Games\Quartet2\Quartet Game\obj\Debug\Quartet Game.csproj.AssemblyReference.cache
+C:\Users\sbha527\Documents\ah\Study-Games\Quartet2\Quartet Game\obj\Debug\Quartet_Game.Form1.resources
+C:\Users\sbha527\Documents\ah\Study-Games\Quartet2\Quartet Game\obj\Debug\Quartet_Game.Properties.Resources.resources
+C:\Users\sbha527\Documents\ah\Study-Games\Quartet2\Quartet Game\obj\Debug\Quartet Game.csproj.GenerateResource.cache
+C:\Users\sbha527\Documents\ah\Study-Games\Quartet2\Quartet Game\obj\Debug\Quartet Game.csproj.CoreCompileInputs.cache
+C:\Users\sbha527\Documents\ah\Study-Games\Quartet2\Quartet Game\obj\Debug\Quartet Game.exe
+C:\Users\sbha527\Documents\ah\Study-Games\Quartet2\Quartet Game\obj\Debug\Quartet Game.pdb
