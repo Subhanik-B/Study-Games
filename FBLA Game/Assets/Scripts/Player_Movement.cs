@@ -105,19 +105,7 @@ public class Player_Movement : MonoBehaviour
     {
         horizontalInput = Input.GetAxisRaw("Horizontal");
         verticalInput = Input.GetAxisRaw("Vertical");
-        if (horizontalInput != 0 || verticalInput != 0)
-        {
-            animator.SetBool("Walking", true);
-        }
-        else
-        {
-            animator.SetBool("Walking", false);
-        }
-
-        if(verticalInput > 0.1 || verticalInput < -0.1)
-        {
-           
-        }
+        
 
         // when to jump
         if (Input.GetKey(jumpKey) && readyToJump && grounded)
