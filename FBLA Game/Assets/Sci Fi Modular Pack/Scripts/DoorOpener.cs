@@ -1,5 +1,7 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class DoorOpener : MonoBehaviour
@@ -33,13 +35,32 @@ public class DoorOpener : MonoBehaviour
         }
         else
         {
+            System.Random random = new System.Random();
             if (door.transform.position.y > doorPos.y)
             {
-                door.transform.position = new Vector3(door.transform.position.x, door.transform.position.y - 0.01f, door.transform.position.z);
+                int a = random.Next(1, 4);
+                switch (a)
+                {
+                    case 2:
+                        door.transform.position = new Vector3(door.transform.position.x, door.transform.position.y + 0.0025f, door.transform.position.z);
+                        break;
+                    default:
+                        door.transform.position = new Vector3(door.transform.position.x, door.transform.position.y - 0.005f, door.transform.position.z);
+                        break;
+                }
             }
             if (door2.transform.position.y > door2Pos.y)
             {
-                door2.transform.position = new Vector3(door2.transform.position.x, door2.transform.position.y - 0.01f, door2.transform.position.z);
+                int a = random.Next(1, 4);
+                switch (a)
+                {
+                    case 2:
+                        door2.transform.position = new Vector3(door2.transform.position.x, door2.transform.position.y + 0.0025f, door2.transform.position.z);
+                        break;
+                    default:
+                        door2.transform.position = new Vector3(door2.transform.position.x, door2.transform.position.y - 0.005f, door2.transform.position.z);
+                        break;
+                }
             }
         }
     }
