@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class Enemy_Controller : MonoBehaviour
@@ -11,12 +9,35 @@ public class Enemy_Controller : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        spawnLocation();
     }
 
     // Update is called once per frame
     void Update()
     {
         self.AddForce((player.transform.position - transform.position).normalized * moveSpeed);
+
+        if (self.position.y < -5)
+        {
+            spawnLocation();
+        }
+    }
+
+    public void spawnLocation()
+    {
+        System.Random spawnpos = new System.Random();
+        int numGenerated = spawnpos.Next(1, 4);
+        switch (numGenerated)
+        {
+            case 1:
+                self.transform.position = new Vector3(7.636f, 0.88f, -19.394f);
+                break;
+            case 2:
+                self.transform.position = new Vector3(-9.25f, 0.88f, 19.394f);
+                break;
+            case 3:
+                self.transform.position = new Vector3(0, 0.88f, -22.984f);
+                break;
+        }
     }
 }
