@@ -94,6 +94,11 @@ public class Player_Movement : MonoBehaviour
             text.SetText("YOU Lose");
             text.color = Color.red;
         }
+
+        if (Input.GetKey(KeyCode.Escape))
+        {
+            SceneManager.LoadScene("Menu");
+        }
     }
 
     private void FixedUpdate()
