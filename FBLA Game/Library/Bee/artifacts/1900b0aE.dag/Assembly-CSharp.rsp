@@ -356,6 +356,7 @@
 "Assets/Sci Fi Modular Pack/Scripts/DoorOpener.cs"
 "Assets/Scripts/Camera_Rotation.cs"
 "Assets/Scripts/Enemy_Controller.cs"
+"Assets/Scripts/Menu_Controller.cs"
 "Assets/Scripts/Player_Movement.cs"
 -langversion:9.0
 /deterministic
