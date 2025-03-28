@@ -6,6 +6,7 @@ public class Enemy_Controller : MonoBehaviour
     public GameObject player;
     public Rigidbody self;
     public float moveSpeed;
+    public bool walk = true;
     // Start is called before the first frame update
     void Start()
     {
