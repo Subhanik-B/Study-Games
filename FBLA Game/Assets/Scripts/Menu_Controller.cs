@@ -27,4 +27,12 @@ public class Menu_Controller : MonoBehaviour
     {
         Application.Quit();
     }
+    public void mainMenu()
+    {
+        SceneManager.LoadScene("Menu");
+    }
+    public void helpScreen()
+    {
+        SceneManager.LoadScene("Help_Screen");
+    }
 }
