@@ -16,11 +16,16 @@ public class Menu_Controller : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        startButton.onClick.AddListener(beginGame);
+
     }
 
     public void beginGame()
     {
         SceneManager.LoadScene("Level_1");
+    }
+
+    public void endGame()
+    {
+        Application.Quit();
     }
 }
