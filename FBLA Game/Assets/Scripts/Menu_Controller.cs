@@ -6,7 +6,6 @@ using UnityEngine.UI;
 
 public class Menu_Controller : MonoBehaviour
 {
-    public Button startButton;
     // Start is called before the first frame update
     void Start()
     {
