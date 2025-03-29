@@ -95,7 +95,7 @@ public class Player_Movement : MonoBehaviour
             text.color = Color.red;
         }
 
-        if (Input.GetKey(KeyCode.Escape))
+        if (Input.GetKey(KeyCode.CapsLock))
         {
             SceneManager.LoadScene("Menu");
         }

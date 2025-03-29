@@ -4,24 +4,20 @@ public class Enemy_Controller : MonoBehaviour
 {
 
     public GameObject player;
-    public Rigidbody self;
+    public GameObject self;
     public float moveSpeed;
     public bool walk = true;
     // Start is called before the first frame update
     void Start()
     {
-        spawnLocation();
     }
 
     // Update is called once per frame
     void Update()
     {
-        self.AddForce((player.transform.position - transform.position).normalized * moveSpeed);
-
-        if (self.position.y < -5)
-        {
-            spawnLocation();
-        }
+        Vector3 targetDirection = player.transform.position;
+        Vector3 newPostition = Vector3.MoveTowards(self.transform.position, targetDirection, moveSpeed * Time.deltaTime);
+        self.transform.position = newPostition;
     }
 
     public void spawnLocation()
