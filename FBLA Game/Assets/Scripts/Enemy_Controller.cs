@@ -10,6 +10,7 @@ public class Enemy_Controller : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+
     }
 
     // Update is called once per frame
@@ -17,7 +18,10 @@ public class Enemy_Controller : MonoBehaviour
     {
         Vector3 targetDirection = player.transform.position;
         Vector3 newPostition = Vector3.MoveTowards(self.transform.position, targetDirection, moveSpeed * Time.deltaTime);
-        self.transform.position = newPostition;
+        if (Vector3.Distance(player.transform.position, self.transform.position) < 13)
+        {
+            self.transform.position = newPostition;
+        }
     }
 
     public void spawnLocation()
