@@ -60,20 +60,31 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.49f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Traffic Lights System\Scripts\HaloTrafficLight.cs" />
+    <Compile Include="Assets\Traffic Lights System\Scripts\RealTrafficLight.cs" />
+    <Compile Include="Assets\Traffic Lights System\Scripts\TrafficLightBase.cs" />
     <Compile Include="Assets\Scripts\Menu_Controller.cs" />
+    <Compile Include="Assets\Scripts\Car_Enemy_Controller.cs" />
+    <Compile Include="Assets\Traffic Lights System\Scripts\TrafficLightManager.cs" />
+    <Compile Include="Assets\Scripts\Level_2_Player_Movement.cs" />
+    <Compile Include="Assets\Traffic Lights System\Demo\Scripts\TL_Demo.cs" />
     <Compile Include="Assets\Scripts\Enemy_Controller.cs" />
     <Compile Include="Assets\Sci Fi Modular Pack\Scripts\CameraController.cs" />
     <Compile Include="Assets\Scripts\Camera_Rotation.cs" />
     <Compile Include="Assets\Scripts\Player_Movement.cs" />
     <Compile Include="Assets\Sci Fi Modular Pack\Scripts\DoorOpener.cs" />
+    <Compile Include="Assets\Traffic Lights System\Scripts\TrafficLightPhase.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
+    <None Include="Assets\KajamansRoads\FileNamesDescription.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
+    <None Include="Assets\Traffic Lights System\Info\README.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
+    <None Include="Assets\KajamansRoads\Free\ReadMe.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
