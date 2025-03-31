@@ -75,9 +75,6 @@ public class Player_Movement : MonoBehaviour
         else
             rb.drag = 0;
 
-        text.SetText(health + " / 100");
-        scoreBoard.SetText("Score: " + score);
-
         if (score == 25)
         {
             scoreBoard.SetText("YOU WIN!!!!");
@@ -98,6 +95,15 @@ public class Player_Movement : MonoBehaviour
         if (Input.GetKey(KeyCode.CapsLock))
         {
             SceneManager.LoadScene("Menu");
+        }
+        scoreBoard.SetText("Objective: Find and follow the Robber (Jeb).");
+        if (GameObject.Find("Jeb"))
+        {
+            Debug.Log("Jeb Found");
+        }
+        else
+        {
+            scoreBoard.text = "Objective: FOLLOW HIM!";
         }
     }
 

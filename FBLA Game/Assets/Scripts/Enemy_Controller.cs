@@ -86,6 +86,10 @@ public class Enemy_Controller : MonoBehaviour
         else
         {
             agent.SetDestination(nav6.transform.position);
+            if (Vector3.Distance(nav6.transform.position, self.transform.position) < 1)
+            {
+                GameObject.Destroy(self);
+            }
         }
             currentNav = agent.destination;
     }
