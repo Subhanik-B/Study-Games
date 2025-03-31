@@ -1,3 +1,4 @@
+using UnityEditor;
 using UnityEngine;
 using UnityEngine.AI;
 public class Enemy_Controller : MonoBehaviour
@@ -6,11 +7,16 @@ public class Enemy_Controller : MonoBehaviour
     public GameObject player;
     public GameObject self;
     public float moveSpeed;
-    public bool walk = true;
     public GameObject nav1;
     public GameObject nav2;
+    public GameObject nav3;
+    public GameObject nav4;
+    public GameObject nav5;
+    public bool nav5Done = false;
     public bool nav1Done = false;
     public bool nav2Done = false;
+    public bool nav3Done = false;
+    public bool nav4Done = false;
     public NavMeshAgent agent;
     public int distance = 5;
     // Start is called before the first frame update
@@ -22,34 +28,28 @@ public class Enemy_Controller : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
-        if (Vector3.Distance(player.transform.position, self.transform.position) < distance)
+        if (!nav1Done)
         {
             agent.SetDestination(nav1.transform.position);
-            distance = 15;
+        }
+        else if(!nav2Done)
+        {
+            agent.SetDestination(nav2.transform.position);
+        }
+        else if (!nav3)
+        {
+            agent.SetDestination(nav3.transform.position);
         }
         else
         {
-            agent.SetDestination(player.transform.position);
-            distance = 2;
+            agent.SetDestination(nav1.transform.position);
         }
+
+        if()
     }
 
-    public void spawnLocation()
+    public void Jump()
     {
-        System.Random spawnpos = new System.Random();
-        int numGenerated = spawnpos.Next(1, 4);
-        switch (numGenerated)
-        {
-            case 1:
-                self.transform.position = new Vector3(7.636f, 0.88f, -19.394f);
-                break;
-            case 2:
-                self.transform.position = new Vector3(-9.25f, 0.88f, 19.394f);
-                break;
-            case 3:
-                self.transform.position = new Vector3(0, 0.88f, -22.984f);
-                break;
-        }
+        self.transform.Translate(new Vector3(self.transform.position.x, self.transform.position.y + 0.25f, self.transform.position.y));
     }
 }
