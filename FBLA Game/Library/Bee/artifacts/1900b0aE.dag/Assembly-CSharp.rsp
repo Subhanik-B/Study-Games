@@ -359,9 +359,17 @@
 "Assets/Sci Fi Modular Pack/Scripts/CameraController.cs"
 "Assets/Sci Fi Modular Pack/Scripts/DoorOpener.cs"
 "Assets/Scripts/Camera_Rotation.cs"
+"Assets/Scripts/Car_Enemy_Controller.cs"
 "Assets/Scripts/Enemy_Controller.cs"
+"Assets/Scripts/Level_2_Player_Movement.cs"
 "Assets/Scripts/Menu_Controller.cs"
 "Assets/Scripts/Player_Movement.cs"
+"Assets/Traffic Lights System/Demo/Scripts/TL_Demo.cs"
+"Assets/Traffic Lights System/Scripts/HaloTrafficLight.cs"
+"Assets/Traffic Lights System/Scripts/RealTrafficLight.cs"
+"Assets/Traffic Lights System/Scripts/TrafficLightBase.cs"
+"Assets/Traffic Lights System/Scripts/TrafficLightManager.cs"
+"Assets/Traffic Lights System/Scripts/TrafficLightPhase.cs"
 -langversion:9.0
 /deterministic
 /optimize+
