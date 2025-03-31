@@ -1,5 +1,5 @@
 using UnityEngine;
-
+using UnityEngine.AI;
 public class Enemy_Controller : MonoBehaviour
 {
 
@@ -7,20 +7,31 @@ public class Enemy_Controller : MonoBehaviour
     public GameObject self;
     public float moveSpeed;
     public bool walk = true;
+    public GameObject nav1;
+    public GameObject nav2;
+    public bool nav1Done = false;
+    public bool nav2Done = false;
+    public NavMeshAgent agent;
+    public int distance = 5;
     // Start is called before the first frame update
     void Start()
     {
-
+        agent = GetComponent<NavMeshAgent>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        Vector3 targetDirection = player.transform.position;
-        Vector3 newPostition = Vector3.MoveTowards(self.transform.position, targetDirection, moveSpeed * Time.deltaTime);
-        if (Vector3.Distance(player.transform.position, self.transform.position) < 13)
+        
+        if (Vector3.Distance(player.transform.position, self.transform.position) < distance)
         {
-            self.transform.position = newPostition;
+            agent.SetDestination(nav1.transform.position);
+            distance = 15;
+        }
+        else
+        {
+            agent.SetDestination(player.transform.position);
+            distance = 2;
         }
     }
 
