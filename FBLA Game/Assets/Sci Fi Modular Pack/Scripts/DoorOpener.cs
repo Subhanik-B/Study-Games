@@ -30,10 +30,10 @@ public class DoorOpener : MonoBehaviour
             {
 
             }
-            door.transform.position = new Vector3(door.transform.position.x, door.transform.position.y + 0.0055f, door.transform.position.z);
-            door2.transform.position = new Vector3(door2.transform.position.x, door2.transform.position.y + 0.0055f, door2.transform.position.z);
+            door.transform.position = new Vector3(door.transform.position.x, door.transform.position.y + 0.0095f, door.transform.position.z);
+            door2.transform.position = new Vector3(door2.transform.position.x, door2.transform.position.y + 0.0095f, door2.transform.position.z);
         }
-        else if (door.transform.position > doorPos.y)
+        else if (door.transform.position.y > doorPos.y)
         {
             for (int i = 0; i < 10000; i++)
             {

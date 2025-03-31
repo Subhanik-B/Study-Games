@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\buntu\\OneDrive\\Documents\\School Code\\Study-Games\\FBLA Game\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9DB5FA5C-6957-B372-9903-91B5A587FBB5}|Assembly-CSharp.csproj|c:\\users\\buntu\\onedrive\\documents\\school code\\study-games\\fbla game\\assets\\scripts\\enemy_controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9DB5FA5C-6957-B372-9903-91B5A587FBB5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy_controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9DB5FA5C-6957-B372-9903-91B5A587FBB5}|Assembly-CSharp.csproj|c:\\users\\buntu\\onedrive\\documents\\school code\\study-games\\fbla game\\assets\\scripts\\camera_rotation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DB5FA5C-6957-B372-9903-91B5A587FBB5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\camera_rotation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9DB5FA5C-6957-B372-9903-91B5A587FBB5}|Assembly-CSharp.csproj|C:\\Users\\buntu\\OneDrive\\Documents\\School Code\\Study-Games\\FBLA Game\\assets\\sci fi modular pack\\scripts\\dooropener.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9DB5FA5C-6957-B372-9903-91B5A587FBB5}|Assembly-CSharp.csproj|solutionrelative:assets\\sci fi modular pack\\scripts\\dooropener.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9DB5FA5C-6957-B372-9903-91B5A587FBB5}|Assembly-CSharp.csproj|C:\\Users\\buntu\\OneDrive\\Documents\\School Code\\Study-Games\\FBLA Game\\assets\\scripts\\player_movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DB5FA5C-6957-B372-9903-91B5A587FBB5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player_movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9DB5FA5C-6957-B372-9903-91B5A587FBB5}|Assembly-CSharp.csproj|C:\\Users\\buntu\\OneDrive\\Documents\\School Code\\Study-Games\\FBLA Game\\assets\\scripts\\menu_controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9DB5FA5C-6957-B372-9903-91B5A587FBB5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\menu_controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9DB5FA5C-6957-B372-9903-91B5A587FBB5}|Assembly-CSharp.csproj|C:\\Users\\buntu\\OneDrive\\Documents\\School Code\\Study-Games\\FBLA Game\\assets\\scripts\\player_movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9DB5FA5C-6957-B372-9903-91B5A587FBB5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player_movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9DB5FA5C-6957-B372-9903-91B5A587FBB5}|Assembly-CSharp.csproj|c:\\users\\buntu\\onedrive\\documents\\school code\\study-games\\fbla game\\assets\\scripts\\enemy_controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DB5FA5C-6957-B372-9903-91B5A587FBB5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy_controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DB5FA5C-6957-B372-9903-91B5A587FBB5}|Assembly-CSharp.csproj|C:\\Users\\buntu\\OneDrive\\Documents\\School Code\\Study-Games\\FBLA Game\\assets\\sci fi modular pack\\scripts\\dooropener.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DB5FA5C-6957-B372-9903-91B5A587FBB5}|Assembly-CSharp.csproj|solutionrelative:assets\\sci fi modular pack\\scripts\\dooropener.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sbha527\\Documents\\ah\\Study-Games\\FBLA Game\\Assets\\Scripts\\P_Move.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -29,8 +33,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Camera_Rotation.cs",
+              "DocumentMoniker": "C:\\Users\\buntu\\OneDrive\\Documents\\School Code\\Study-Games\\FBLA Game\\Assets\\Scripts\\Camera_Rotation.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Camera_Rotation.cs",
+              "ToolTip": "C:\\Users\\buntu\\OneDrive\\Documents\\School Code\\Study-Games\\FBLA Game\\Assets\\Scripts\\Camera_Rotation.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Camera_Rotation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T06:42:59.932Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 2,
@@ -39,51 +56,53 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\Menu_Controller.cs",
               "ToolTip": "C:\\Users\\buntu\\OneDrive\\Documents\\School Code\\Study-Games\\FBLA Game\\Assets\\Scripts\\Menu_Controller.cs",
               "RelativeToolTip": "Assets\\Scripts\\Menu_Controller.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABYAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T03:13:26.469Z"
+              "WhenOpened": "2025-03-28T03:13:26.469Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "DoorOpener.cs",
               "DocumentMoniker": "C:\\Users\\buntu\\OneDrive\\Documents\\School Code\\Study-Games\\FBLA Game\\Assets\\Sci Fi Modular Pack\\Scripts\\DoorOpener.cs",
               "RelativeDocumentMoniker": "Assets\\Sci Fi Modular Pack\\Scripts\\DoorOpener.cs",
               "ToolTip": "C:\\Users\\buntu\\OneDrive\\Documents\\School Code\\Study-Games\\FBLA Game\\Assets\\Sci Fi Modular Pack\\Scripts\\DoorOpener.cs",
               "RelativeToolTip": "Assets\\Sci Fi Modular Pack\\Scripts\\DoorOpener.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAIwCMAAAA0AAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAcwCoAAABvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-19T20:18:22.648Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Enemy_Controller.cs",
               "DocumentMoniker": "C:\\Users\\buntu\\OneDrive\\Documents\\School Code\\Study-Games\\FBLA Game\\Assets\\Scripts\\Enemy_Controller.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy_Controller.cs",
               "ToolTip": "C:\\Users\\buntu\\OneDrive\\Documents\\School Code\\Study-Games\\FBLA Game\\Assets\\Scripts\\Enemy_Controller.cs",
               "RelativeToolTip": "Assets\\Scripts\\Enemy_Controller.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAmwC8AAAALAAAAAAAAAA==",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAAwFAAAABWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-19T01:16:43.954Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Player_Movement.cs",
               "DocumentMoniker": "C:\\Users\\buntu\\OneDrive\\Documents\\School Code\\Study-Games\\FBLA Game\\Assets\\Scripts\\Player_Movement.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player_Movement.cs",
               "ToolTip": "C:\\Users\\buntu\\OneDrive\\Documents\\School Code\\Study-Games\\FBLA Game\\Assets\\Scripts\\Player_Movement.cs",
               "RelativeToolTip": "Assets\\Scripts\\Player_Movement.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAswGEAAAApAAAAAAAAAA==",
+              "ViewState": "AgIAACMAAAAAAAAAAAAswDwAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-07T16:01:20.19Z"
+              "WhenOpened": "2025-03-07T16:01:20.19Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "P_Move.cs",
               "DocumentMoniker": "C:\\Users\\sbha527\\Documents\\ah\\Study-Games\\FBLA Game\\Assets\\Scripts\\P_Move.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\sbha527\\Documents\\ah\\Study-Games\\FBLA Game\\Assets\\Scripts\\P_Move.cs",

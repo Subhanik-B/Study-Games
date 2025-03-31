@@ -15,7 +15,6 @@ public class Camera_Rotation : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
     }
 
     // Update is called once per frame
@@ -26,6 +25,8 @@ public class Camera_Rotation : MonoBehaviour
 
         rotateValue.x += input.x * sensX;
         rotateValue.y -= input.y * sensY;
+
+        rotateValue.x = Mathf.Clamp(rotateValue.x, -90, 90);
 
         transform.rotation = Quaternion.Euler(-rotateValue.x, -rotateValue.y, 0);
         orientation.rotation = Quaternion.Euler(0, -rotateValue.y, 0);
