@@ -1,5 +1,9 @@
 # Study-Games
-3/1/25 - Created Unity Project, added cube in floor <br/>
-3/3/25 - Made new movement script, made game in first person, cube no longer in floor <br/>
-3/4/25 - No changes, Unity updated assets <br/>
-3/5/25 - Updated Readme <br/>
+<b/>Finding Jeb</b> <br/>
+'Finding Jeb' is a game about the percieved proper way to catch criminals, in this case a bank robber named Jeb. The name draws inspiration from the movie 'Finding Nemo', with the 3 levels depicting the actual robbery of a bank, chasing the robber, and finally confronting them.
+<br/>
+<b/>Copywright</b> <br/>
+Use of Unity Game Engine, Unity Assets, Unity Asset Store <br/>
+Use of NASA Nebula photos <br/>
+Use of music made by Wee Free Music on Youtube
+
