@@ -202,6 +202,29 @@ void printSchedule(Teams a)
 
 void playGame()
 {
+    int teamScore = 0;
+    int opponentScore = 0;
+
+    double teamScoreProb = 0;
+    double oppScoreProb = 0;
+
+    if (teamList[a-1].getOAverage() > schedule[week-1].getDAverage())
+    {
+        teamScoreProb = teamList[a-1].getOAverage() - schedule[week-1].getDAverage();
+    }
+    else
+    {
+        teamScoreProb = Math.Abs(teamList[a - 1].getOAverage() - schedule[week - 1].getDAverage());
+    }
+    if (teamList[a - 1].getDAverage() > schedule[week - 1].getOAverage())
+    {
+        oppScoreProb = Math.Abs(schedule[week-1].getOAverage() - teamList[a-1].getDAverage());
+    }
+    else
+    {
+        oppScoreProb = schedule[week-1].getOAverage() - teamList[a-1].getDAverage();
+    }
+
 
 }
 
